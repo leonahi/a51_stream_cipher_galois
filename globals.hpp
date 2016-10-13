@@ -55,9 +55,9 @@ using namespace std;
 #define LFSR3_WIDTH (23-1)
 
 // Clocking bits
-#define LFSR1_CLK_BITP 8
-#define LFSR2_CLK_BITP 10
-#define LFSR3_CLK_BITP 10
+#define LFSR1_CLK_BITP 10  // LFSR_1[0-18] bit no. 8 or bit no. 10 from right
+#define LFSR2_CLK_BITP 12  // LFSR_1[0-21] bit no. 10 or bit no. 12 from right
+#define LFSR3_CLK_BITP 11  // LFSR_1[0-23] bit no. 10 or bit no. 11 from right
 
 // Tap bits LFSR1
 #define TAP1_13_BITP 13
